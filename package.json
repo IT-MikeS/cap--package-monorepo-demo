@@ -1,0 +1,16 @@
+{
+  "name": "cap-mono-repo",
+  "private": "true",
+  "scripts": {
+    "build": "pnpm run -r build",
+    "sync-projects-pnpm": "pnpm run -r --stream syncme-pnpm",
+    "sync-projects-npm": "npm run --workspaces syncme-npm"
+  },
+  "devDependencies": {
+    "npkill": "^0.11.3"
+  },
+  "workspaces": [
+    "packages/*",
+    "packages/more-packages/*"
+  ]
+}
