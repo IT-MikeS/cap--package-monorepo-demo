@@ -27,7 +27,6 @@
     ]
   },
   "dependencies": {
-    "@capacitor/cli": "file:/Users/mikesummerfeldt/Documents/GitHub/capacitor/cli",
     "@capacitor/action-sheet": "^5.0.2",
     "@capacitor/android": "^5.0.3",
     "@capacitor/app": "^5.0.2",
@@ -71,6 +70,7 @@
     "react-router-dom": "^5.3.4"
   },
   "devDependencies": {
+    "@capacitor/cli": "file:../../../../GitHub/capacitor/cli",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",

@@ -14,7 +14,7 @@ PODS:
   - CapacitorClipboard (5.0.6):
     - Capacitor
   - CapacitorCordova (5.2.3)
-  - CapacitorDevice (5.0.6):
+  - CapacitorDevice (5.0.2):
     - Capacitor
   - CapacitorDialog (5.0.6):
     - Capacitor
@@ -116,7 +116,7 @@ DEPENDENCIES:
   - "CapacitorCamera (from `../../../../../node_modules/@capacitor/camera`)"
   - "CapacitorClipboard (from `../../../../../node_modules/@capacitor/clipboard`)"
   - "CapacitorCordova (from `../../../../../node_modules/@capacitor/ios`)"
-  - "CapacitorDevice (from `../../../../../node_modules/@capacitor/device`)"
+  - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
   - "CapacitorDialog (from `../../../../../node_modules/@capacitor/dialog`)"
   - "CapacitorFilesystem (from `../../../../../node_modules/@capacitor/filesystem`)"
   - "CapacitorGeolocation (from `../../../../../node_modules/@capacitor/geolocation`)"
@@ -166,7 +166,7 @@ EXTERNAL SOURCES:
   CapacitorCordova:
     :path: "../../../../../node_modules/@capacitor/ios"
   CapacitorDevice:
-    :path: "../../../../../node_modules/@capacitor/device"
+    :path: "../../node_modules/@capacitor/device"
   CapacitorDialog:
     :path: "../../../../../node_modules/@capacitor/dialog"
   CapacitorFilesystem:
@@ -209,7 +209,7 @@ SPEC CHECKSUMS:
   CapacitorCamera: 084b0b228bba7d00587910337b1c89e93b1d32ab
   CapacitorClipboard: 77edf49827ea21da2a9c05c690a4a6a4d07199c4
   CapacitorCordova: 35def3ebfdef491f0a7b652816eb873ff4b20bbf
-  CapacitorDevice: 2c968f98a1ec4d22357418c1521e7ddc46c675e6
+  CapacitorDevice: 980e172f6fbfa0a945c73f908adc74b5a031e7d4
   CapacitorDialog: 0f3c15dfe9414b83bc64aef4078f1b92bcfead26
   CapacitorFilesystem: 5efb77d5dc1c8c05bce5e19f0e7bfdf72363fb43
   CapacitorGeolocation: 7be5f77abc205c0efe319fff8587a7183e7b0240
@@ -237,6 +237,6 @@ SPEC CHECKSUMS:
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
 
-PODFILE CHECKSUM: 69a30c1d43ffe5bce9fa3ab513d1ab7baf76194a
+PODFILE CHECKSUM: b1a53b467859aa5839c75881c2a9c48933800729
 
 COCOAPODS: 1.12.1
